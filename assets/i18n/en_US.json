@@ -1,0 +1,12 @@
+{
+    "titleRegister": "Register Account",
+    "titleLogin": "LogIn with you Account",
+    "logIn": "LogIn",
+    "signIn": "SignIn",
+    "inputEmail": "E-mail",
+    "name": "Name",
+    "invalidEmailMessage": "This email is invalid",
+    "emailNotRegisteredMessage": "This email is not registered",
+    "nameWith3Characters": "The Name need to have minimal of 3 Characteres",
+    "problemToRegisterAccount": "Have an problem to register you account"
+}

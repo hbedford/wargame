@@ -1,0 +1,12 @@
+{
+    "titleRegister": "Registrar Conta",
+    "titleLogin": "Logue com sua Conta",
+    "logIn": "Logar-se",
+    "signIn": "Cadastrar-se",
+    "inputEmail": "E-mail",
+    "name": "Nome",
+    "invalidEmailMessage": "Digite um email valido",
+    "emailNotRegisteredMessage": "Nenhum usuario com esse email encontrado",
+    "nameWith3Characters": "Digite um nome com pelo menos 3 caracteres",
+    "problemToRegisterAccount": "Ocorreu algum problema ao cadastrar a conta"
+}
