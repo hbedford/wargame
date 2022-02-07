@@ -8,5 +8,12 @@
     "invalidEmailMessage": "This email is invalid",
     "emailNotRegisteredMessage": "This email is not registered",
     "nameWith3Characters": "The Name need to have minimal of 3 Characteres",
-    "problemToRegisterAccount": "Have an problem to register you account"
+    "problemToRegisterAccount": "Have an problem to register you account",
+    "titleLobbyServers": "List of Servers",
+    "logoutLobby": "Logout",
+    "lobbyListEmpty": "Don't find servers",
+    "lobbyCreateServer": "Create Server",
+    "titleLobby": "Server Lobby",
+    "lobbyStart": "Iniciar",
+    "lobbyWaiting": "Aguardando o host"
 }

@@ -11,7 +11,7 @@ class AppProviders {
   static List<SingleChildWidget> get providers => [
         Provider.value(value: WarAPI()),
         Provider.value(value: GetStorage()),
-        ChangeNotifierProvider(create: (_) => ObservableServer()),
+        // ChangeNotifierProvider(create: (_) => ObservableServer()),
         ChangeNotifierProvider(create: (_) => SelectedTheme()),
       ];
 }
