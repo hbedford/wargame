@@ -17,12 +17,23 @@ class Territory {
     required this.neighbors,
     required this.continentId,
   });
-  Map<String, dynamic> get toMap => {
-        /* 'id': id, */
+  factory Territory.fromJson(Map<String, dynamic> json) => Territory(
+        id: json['id'],
+        name: json['name'],
+        amountSoldiers: json['amountsoldiers'],
+        offset: Offset(
+          double.parse(json['offset'].split(',').first),
+          double.parse(json['offset'].split(',').last),
+        ),
+        neighbors: json['neighbors'],
+        continentId: json['continent_id'],
+      );
+  Map<String, dynamic> get toJson => {
+        "id": id,
         'name': name,
-        'amountsoldiers': 0,
+        'amountsoldiers': amountSoldiers,
         'continent_id': continentId,
-        'offset': offset.toString(),
+        'offset': "${offset.dx},${offset.dy}",
         'neighbors': neighbors.toString(),
       };
 }

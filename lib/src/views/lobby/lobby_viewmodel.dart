@@ -126,7 +126,7 @@ class LobbyViewModel with ChangeNotifier {
 
   addTerritories() async {
     var result = await _api.addTerritories(
-        territories.map<Map<String, dynamic>>((e) => e.toMap).toList());
+        territories.map<Map<String, dynamic>>((e) => e.toJson).toList());
   }
 
   addUserOnTerritory(Territory territory, int indexUser) {
